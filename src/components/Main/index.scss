@@ -1,0 +1,66 @@
+.main{
+    min-height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 28px 0;
+
+    &__logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__sort{
+        width: 65%;
+        display: flex;
+        justify-content: space-between;
+        & #sortLetter{
+            width: 150px;
+            text-align: center;
+            font-weight: bold;
+            height: 40px;
+            border: 2px solid #000;
+            background: #FFFFFF;
+            border-radius: 15px;
+        }
+        & #search{
+            padding-left: 28px;
+            width: 200px;
+            font-weight: bold;
+            height: 40px;
+            border-radius: 15px;
+            border: 2px solid #000;
+            background: #FFFFFF;
+
+        }
+        & #type{
+            width: 150px;
+            text-align: center;
+            font-weight: bold;
+            height: 40px;
+            border: 2px solid #000;
+            border-radius: 15px;
+            background: #FFFFFF;
+        }
+        & .btn{
+            width: 120px;
+            font-weight: bold;
+            height: 40px;
+            border: 2px solid #000;
+            background: #FFFFFF;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+      
+    }
+    &__cards{
+        width: 90%;
+        height: 60%;
+        gap: 24px 0;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
